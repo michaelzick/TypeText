@@ -10,7 +10,7 @@ Then create the function call at the very bottom of the code:
   
 `intThis();`  
 
-Check out the [demo](hhttp://jsfiddle.net/ZICKONEZERO/zVnVt/). 
+Check out the [demo](http://jsfiddle.net/ZICKONEZERO/zVnVt/). 
 
 ### Requirements:
 jQuery 1.8.3
