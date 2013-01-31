@@ -1,6 +1,6 @@
 # What does this do?
-This plugin takes a string, parses it to an array, and outputs it to the DOM with the following options:
--type: 'linear' or 'random' (string)
+This plugin takes a string, parses it to an array, and outputs it to the DOM with the following options:  
+-type: 'linear' or 'random' (string)  
 -speed: how fast the characters are displayed (integer)
 
 ## How do I use it?
