@@ -1,7 +1,7 @@
-# What does this do?: 
-This plugin takes the following options:
-type: 'linear' or 'random' (string)
-speed: how fast the characters are displayed (integer)
+# What does this do?
+This plugin takes a string, parses it to an array, and outputs it to the DOM with the following options:
+-type: 'linear' or 'random' (string)
+-speed: how fast the characters are displayed (integer)
 
 ## How do I use it?
 For each element you want to run the plugin on, give it a class of "typeText":
