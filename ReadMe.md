@@ -15,7 +15,7 @@ Then create the function call at the very bottom of the code:
     speed: 25  
 });`  
 
-Check out the [demo](http://jsfiddle.net/ZICKONEZERO/CqcNV/). 
+Check out the [demo](http://jsfiddle.net/ZICKONEZERO/CqcNV/).
 
 ### Requirements:
 jQuery 1.8.3
