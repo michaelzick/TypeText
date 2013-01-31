@@ -1,5 +1,5 @@
 # What does this do?
-This plugin takes a string, parses it to an array, and outputs it to the DOM with the following options:  
+This plugin takes a string, parses it to an array and outputs it to the DOM with the following options:  
 -type: 'linear' or 'random' (string)  
 -speed: how fast the characters are displayed (integer)
 
@@ -10,9 +10,9 @@ For each element you want to run the plugin on, give it a class of "typeText":
   
 Then create the function call at the very bottom of the code:
   
-`$('.typeText').typeText({
-    type: 'random',
-    speed: 25
+`$('.typeText').typeText({  
+    type: 'random',  
+    speed: 25  
 });`  
 
 Check out the [demo](http://jsfiddle.net/ZICKONEZERO/CqcNV/). 
