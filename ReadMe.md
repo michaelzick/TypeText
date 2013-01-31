@@ -1,5 +1,7 @@
 # What does this do?: 
-This plugin takes an HTML string, adds each character to an array and ouputs them sequentially to the DOM.
+This plugin takes the following options:
+type: 'linear' or 'random' (string)
+speed: how fast the characters are displayed (integer)
 
 ## How do I use it?
 For each element you want to run the plugin on, give it a class of "typeText":
@@ -8,9 +10,12 @@ For each element you want to run the plugin on, give it a class of "typeText":
   
 Then create the function call at the very bottom of the code:
   
-`intThis();`  
+`$('.typeText').typeText({
+    type: 'random',
+    speed: 25
+});`  
 
-Check out the [demo](http://jsfiddle.net/ZICKONEZERO/zVnVt/). 
+Check out the [demo](http://jsfiddle.net/ZICKONEZERO/CqcNV/). 
 
 ### Requirements:
 jQuery 1.8.3
