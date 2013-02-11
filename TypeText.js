@@ -11,10 +11,9 @@
             speed: 50
         }, options);
 
-
         if (settings.type == 'random') {
             for (i = 0; i < parseItLetter.length; i++) {
-                letterArray += '<span class="opaque">' + parseItLetter[i] + '</span>';
+                letterArray.push('<span class="opaque">' + parseItLetter[i] + '</span>');
             }
             $('.typeText').append(letterArray);
 
@@ -33,7 +32,7 @@
         }
         if (settings.type == 'linear') {
             for (i = 0; i < parseItLetter.length; i++) {
-                letterArray += parseItLetter[i];
+                letterArray.push(parseItLetter[i]);
             }
             var i = 0,
                 l = letterArray.length;
@@ -42,7 +41,7 @@
                 $('.typeText').append(letterArray[i]);
                 i++;
                 if (i < l) {
-                    setTimeout(fLin, 50);
+                    setTimeout(fLin, settings.speed);
                 }
             }
             fLin();
